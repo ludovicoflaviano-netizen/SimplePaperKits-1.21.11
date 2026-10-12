@@ -1,0 +1,18 @@
+name: SimplePaperKits
+version: 1.0.0
+main: net.ludovicoflaviano.simplepaperkits.SimplePaperKits
+api-version: '1.21.11'
+author: Ludovico
+ description: Simple inventory kits for Paper 1.21.11
+commands:
+  kit:
+    description: Create and load saved kits
+    usage: /kit <create|load> <name> [player]
+    permission: simplepaperkits.load
+permissions:
+  simplepaperkits.load:
+    description: Allows loading kits
+    default: true
+  simplepaperkits.create:
+    description: Allows creating kits
+    default: op
