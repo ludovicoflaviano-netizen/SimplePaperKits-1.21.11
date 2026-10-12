@@ -3,7 +3,7 @@ version: 1.0.0
 main: net.ludovicoflaviano.simplepaperkits.SimplePaperKits
 api-version: '1.21.11'
 author: Ludovico
- description: Simple inventory kits for Paper 1.21.11
+description: Simple inventory kits for Paper 1.21.11
 commands:
   kit:
     description: Create and load saved kits
